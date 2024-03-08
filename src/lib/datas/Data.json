@@ -1,0 +1,58 @@
+{
+    "user": {
+      "name": "Krishna Kiran",
+      "title": "Co-Founder and CEO",
+      "company": "Duggup",
+      "bio": "Co-Founder and CEO at Duggup - Social network for people in tech. Ex-Amazon Head of Engineering. I write hot-takes on building a business, shipping delightful products and accelerating product and career growth.",
+      "profilePicture": "'$lib/images/profile_img.jpeg'",
+      "followed": true,
+      "socialLinks": {
+        "website": "https://example.com"
+      },
+      "posts": [
+        {
+          "date": "Dec 2023",
+          "content": "No amount of technology can convert a bad story into a good story.",
+          "image": "story-image.jpg"
+        },
+        {
+          "date": "Dec 2022",
+          "content": "Startup Lesson I am reflecting: Don't build for the 'average person'.",
+          "image": "startup-lesson-image.jpg"
+        },
+        {
+          "date": "Dec 2022",
+          "content": "Your biggest regrets at 80 will be act of omission",
+          "image": "startup-lesson-image.jpg"
+        },
+        {
+          "date": "Dec 2023",
+          "content": "Most people dont have orignal idea. Here is how Sam Altman pushes himself to have orignal ideas",
+          "image": "startup-lesson-image.jpg"
+        }
+        
+      ],
+      "jobs":[
+        {
+          "date":"Dec 2022",
+          "company":"Duggup",
+          "office":"San Francisco Bay Area",
+          "change":"Joined",
+          "position":"Co-Founder and CEO",
+          "type":"Full time",
+          "Location":"Remote"
+        },
+        {
+          "date":"Sep 2022",
+          "company":"BetterUp",
+          "office":"San Francisco Bay Area",
+          "change":"Joined",
+          "position":"VP Engineering",
+          "type":"Full time"
+        }
+
+      ]
+    }
+    
+  }
+  
