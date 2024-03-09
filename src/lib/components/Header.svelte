@@ -52,10 +52,10 @@
 	border-bottom: 5px dotted #eaeaea; 
 	}
 	.navbar-item{
-		width: Hug (112px);
-height: Hug (36px);
-padding: 0px, 16px, 0px, 16px;
-border-radius: 40px;
+	width: Hug (112px);
+	height: Hug (36px);
+	padding: 0px, 16px, 0px, 16px;
+	border-radius: 40px;
 
 	}
 
@@ -78,26 +78,25 @@ border-radius: 40px;
 	padding: 5px
 	}
 	.navbar-center{
-		display: flex;
-  justify-content: flex-end; 
-  flex-grow: 1;
-  width: Hug (461px);
-height: Hug (37.5px);
-gap: 40px;
+	display: flex;
+  	justify-content: flex-end; 
+  	flex-grow: 1;
+  	width: Hug (461px);
+	height: Hug (37.5px);
+	gap: 40px;
 
 	}
 	.navbar-post{
-		width: 102px;
-height: 36px;
-padding: 0px, 16px, 0px, 16px;
-border-radius: 4px;
-border: 0.5px;
-
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		background: #fff;
+	width: 102px;
+	height: 36px;
+	padding: 0px, 16px, 0px, 16px;
+	border-radius: 4px;
+	border: 0.5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
     color: #000;
     border: 0.5px solid #4D4D4D;
     box-shadow: 0px 4px 0px 0px #4D4D4D; 
@@ -144,23 +143,23 @@ border: 0.5px;
 	align-items: center;
 	cursor: pointer;
 	width: 248px;
-height: 52px;
-padding: 16px;
-border: 0px, 0px, 1px, 0px;
-gap: 12px;
+	height: 52px;
+	padding: 16px;
+	border: 0px, 0px, 1px, 0px;
+	gap: 12px;
 
 	}
 	.profile{
 		width: 48px;
-height: 48px;
-padding: 3px, 0px, 0px, 2px;
-border-radius: 1000px;
-border: 0.5px;
-border: 0.5px solid #4D4D4D;
+	height: 48px;
+	padding: 3px, 0px, 0px, 2px;
+	border-radius: 1000px;
+	border: 0.5px;
+	border: 0.5px solid #4D4D4D;
 	}
 	.profile-name{
 		
-gap: 5px;
+	gap: 5px;
 
 	}
 </style>

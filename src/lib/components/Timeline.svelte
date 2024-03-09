@@ -70,11 +70,11 @@
     </div>
   {:else}
     <div class="bg-white shadow-md rounded-lg p-6 w-[550px] h-[100px] mx-auto mb-4 flex items-center">
-      <img src={entry.image} alt="Post image" class="w-auto h-full max-h-full rounded">
+      <img src={entry.image} alt="Post" class="w-auto h-full max-h-full rounded">
       <p class="truncate ml-4">{entry.content}</p>
     </div>
-  {/if}
-{/each}
+          {/if}
+          {/each}
           </TimelineContent>
         </TimelineItem>
       {/each}
