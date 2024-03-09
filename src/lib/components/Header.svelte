@@ -1,11 +1,4 @@
 <script>
-	import { page } from '$app/stores';
-	import logo from '$lib/images/duggup_logo.jpeg';
-	import home from '$lib/images/home.svg';
-	import explore from '$lib/images/explore.png';
-	import learn from '$lib/images/learn.png';
-	import profile from '$lib/images/profile_img.jpeg'
-	import post from '$lib/images/post.png'
 	import { getContext } from 'svelte';
 	let userData = getContext('userDataContext'); 
 </script>
@@ -15,29 +8,29 @@
 	<nav class="navbar">
 
 		<div class="navbar-brand">
-			<img src={logo} alt="duggup-logo" class="navbar-logo"/>
+			<img src="/images/duggup_logo.jpeg" alt="duggup-logo" class="navbar-logo"/>
 			<p>duggup</p>
 		</div>
 		<div class="navbar-center">
 		<div class="navbar-menu">
 			<div class="navbar-item">
-				<img src={home} alt="duggup-home" class="duggup-items-logo"/> 
+				<img src="/images/home.png" alt="duggup-home" class="duggup-items-logo"/> 
 				Home
 			</div>
 			<div class="navbar-item">
-				<img src={explore} alt="duggup-explore" class="duggup-items-logo"/>
+				<img src="/images/explore.png" alt="duggup-explore" class="duggup-items-logo"/>
 				Explore</div>
 			<div class="navbar-item">
-				<img src={learn} alt="duggup-learn" class="duggup-items-logo"/>
+				<img src="/images/book.png" alt="duggup-learn" class="duggup-items-logo"/>
 				Learn</div>
 		</div>
 		<div class="navbar-post">
 			
-				<img src={post} alt="duggup-learn" class="duggup-items-logo"/>
+				<img src="/images/post.png" alt="duggup-learn" class="duggup-items-logo"/>
 				Post
 		</div>
 		<div class="navbar-profile">
-			<img src={profile} alt="profile" class="profile"/>
+			<img src="/images/profile_img.jpeg" alt="profile" class="profile"/>
 			<div class="profile-name">{userData.user.name}</div>
 			<span class="dropdown-arrow">▼</span>
 		</div>
@@ -55,7 +48,7 @@
 	padding: 10px 0 0 0;
 	margin-left: 117px;
 	margin-right: 117px;
-	background-color: #ffffff; 
+	background-color: #FCFCFF; 
 	border-bottom: 5px dotted #eaeaea; 
 	}
 	.navbar-item{
@@ -94,8 +87,8 @@ gap: 40px;
 
 	}
 	.navbar-post{
-		width: Hug (102px);
-height: Hug (36px);
+		width: 102px;
+height: 36px;
 padding: 0px, 16px, 0px, 16px;
 border-radius: 4px;
 border: 0.5px;
@@ -137,8 +130,8 @@ border: 0.5px;
 	cursor: pointer;
 	}
 	.duggup-items-logo {
-	width: Hug (24px);
-	height: Hug (24px);
+	width: 34px;
+	height: 34px;
 	padding: 4px;
 
 	}
@@ -150,8 +143,8 @@ border: 0.5px;
 	display: flex;
 	align-items: center;
 	cursor: pointer;
-	width: Fixed (248px);
-height: Fixed (52px);
+	width: 248px;
+height: 52px;
 padding: 16px;
 border: 0px, 0px, 1px, 0px;
 gap: 12px;
@@ -166,9 +159,9 @@ border: 0.5px;
 border: 0.5px solid #4D4D4D;
 	}
 	.profile-name{
-		width: Fixed (128px);
-height: Hug (24px);
-gap: 8px;
+		
+gap: 5px;
 
 	}
 </style>
+

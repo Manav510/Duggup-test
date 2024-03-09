@@ -1,57 +1,66 @@
-{
+{ 
     "user": {
       "name": "Krishna Kiran",
       "title": "Co-Founder and CEO",
       "company": "Duggup",
       "bio": "Co-Founder and CEO at Duggup - Social network for people in tech. Ex-Amazon Head of Engineering. I write hot-takes on building a business, shipping delightful products and accelerating product and career growth.",
-      "profilePicture": "'$lib/images/profile_img.jpeg'",
+      "profilePicture": "/images/profile_img.jpeg",
       "followed": true,
+      "logo": "/images/duggup_logo.jpeg",
       "socialLinks": {
         "website": "https://example.com"
       },
-      "posts": [
-        {
-          "date": "Dec 2023",
-          "content": "No amount of technology can convert a bad story into a good story.",
-          "image": "story-image.jpg"
-        },
-        {
-          "date": "Dec 2022",
-          "content": "Startup Lesson I am reflecting: Don't build for the 'average person'.",
-          "image": "startup-lesson-image.jpg"
-        },
-        {
-          "date": "Dec 2022",
-          "content": "Your biggest regrets at 80 will be act of omission",
-          "image": "startup-lesson-image.jpg"
-        },
-        {
-          "date": "Dec 2023",
-          "content": "Most people dont have orignal idea. Here is how Sam Altman pushes himself to have orignal ideas",
-          "image": "startup-lesson-image.jpg"
-        }
+      "timelineItems": [
         
-      ],
-      "jobs":[
         {
-          "date":"Dec 2022",
+          "date": "Dec 2023",
+          "isJob":"No",
+          "content": "No amount of technology can convert a bad story into a good story.",
+          "image": "/images/steve-jobs.jpeg"
+        },
+        {
+          "date": "Dec 2022",
+          "isJob":"No",
+          "content": "Startup Lesson I am reflecting: Don't build for the 'average person'.",
+          "image": "/images/start_up.jpeg"
+        },
+        {
+          "date":"Nov 2023",
+          "isJob":"Yes",
           "company":"Duggup",
           "office":"San Francisco Bay Area",
           "change":"Joined",
           "position":"Co-Founder and CEO",
           "type":"Full time",
-          "Location":"Remote"
+          "Location":"Remote",
+          "image":"/images/duggup_logo.jpeg"
+        },
+        {
+          "date": "Dec 2022",
+          "isJob":"No",
+          "content": "Your biggest regrets at 80 will be act of omission",
+          "image": "/images/regret.png"
+        },
+        
+        {
+          "date": "Dec 2023",
+          "isJob":"No",
+          "content": "Most people dont have orignal idea. Here is how Sam Altman pushes himself to have orignal ideas",
+          "image": "/images/sam_altman.jpeg"
         },
         {
           "date":"Sep 2022",
+          "isJob":"Yes",
           "company":"BetterUp",
           "office":"San Francisco Bay Area",
           "change":"Joined",
           "position":"VP Engineering",
-          "type":"Full time"
+          "type":"Full time",
+          "image":"/images/BetterUp-Logo.jpeg"
         }
-
+        
       ]
+      
     }
     
   }

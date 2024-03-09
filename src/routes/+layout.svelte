@@ -6,13 +6,15 @@
 	import {setContext} from 'svelte';
 	setContext('userDataContext',userData);
 	import About from '../lib/components/About.svelte'
+  import Timeline from "$lib/components/Timeline.svelte";
 </script>
 
 <div class="app">
 	<Header ></Header>
 
-	<main>
-		<About></About>
+	<main class="flex flex-col lg:flex-row">
+		<About ></About>
+		<Timeline></Timeline>
 		<slot></slot>
 	</main>
 
@@ -24,6 +26,8 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		background-color: #FCFCFF; 
+		
 	}
 
 	main {
